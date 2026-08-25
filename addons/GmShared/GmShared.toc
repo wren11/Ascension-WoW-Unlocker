@@ -1,0 +1,19 @@
+## Interface: 30300
+## Title: |cffe6007eGm|rShared
+## Notes: Multi-instance shared world + OM Lua cache (sync/rehydrate/evict).
+## Author: gamet
+## Version: 1.1.21
+## SavedVariablesPerCharacter: GmSessionDB
+## OptionalDeps: ExtProxy
+## DefaultState: enabled
+
+GmShared.lua
+GmDeath.lua
+Professions.lua
+LootProof.lua
+OmCache.lua
+HopGate.lua
+GmSession.lua
+InstanceProxy.lua
+GmtEntitlements.lua
+EntitlementGate.lua

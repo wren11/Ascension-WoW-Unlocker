@@ -1,0 +1,10 @@
+## Interface: 30300
+## Title: |cffc39bd3Gm|rCmds
+## Notes: Macro slash cmds — /tpface (fallback if GmTeleport absent) /cleartarget /target_lowest_* /lootall /lootnearest /gmmsg
+## Author: gamet
+## Version: 1.1.3
+## SavedVariablesPerCharacter: GmCmdsDB
+## OptionalDeps: GmUI, GmTeleport, GmShared
+## DefaultState: enabled
+
+GmCmds.lua

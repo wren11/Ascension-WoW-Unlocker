@@ -1,0 +1,7 @@
+<Bindings>
+    <!-- Fallback for setups where the middle mouse button is taken by the camera:
+         hover the world map and press the bound key instead of middle-clicking. -->
+    <Binding name="GMMAPTELEPORT_CURSOR" category="ADDONS" header="GMMAPTELEPORT">
+        if GmMapTeleport then GmMapTeleport.TeleportToCursor() end
+    </Binding>
+</Bindings>

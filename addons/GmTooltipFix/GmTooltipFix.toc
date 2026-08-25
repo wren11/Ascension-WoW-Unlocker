@@ -1,0 +1,8 @@
+## Interface: 30300
+## Title: |cffe6007eGm|rTooltipFix
+## Notes: Guards Ascension GameTooltipMods against nil tooltip line text (SetSpell/SetAction).
+## Author: gamet
+## Version: 1.1.2
+## DefaultState: enabled
+
+GmTooltipFix.lua

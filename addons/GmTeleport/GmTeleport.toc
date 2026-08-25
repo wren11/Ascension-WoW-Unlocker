@@ -1,0 +1,11 @@
+## Interface: 30300
+## Title: |cffe6007eGm|rTeleport
+## Notes: Load-teleport bookmark + /tpface (instant TP+face target). /gmteleport
+## Author: gamet
+## Version: 1.9.10
+## SavedVariablesPerCharacter: GmTeleportDB
+## OptionalDeps: GmUI, GmShared
+## DefaultState: enabled
+
+Scheduler.lua
+GmTeleport.lua

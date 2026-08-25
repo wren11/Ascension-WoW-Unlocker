@@ -1,0 +1,13 @@
+## Interface: 30300
+## Title: |cffe6007eGm|rMapTeleport
+## Notes: Right-click the world map for a teleport menu, or middle-click to go straight there. Unrestricted (any continent); navmesh Z when available else player Z; packet cascade + ASC:TP fallback. /maptp
+## Author: gamet
+## Version: 1.5.9
+## SavedVariablesPerCharacter: GmMapTeleportDB
+## OptionalDeps: GmUI, GmTeleport, GmShared
+## DefaultState: enabled
+
+MapAreas.lua
+Scheduler.lua
+GmMapTeleport.lua
+Bindings.xml

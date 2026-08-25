@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "note": "Masked AOB table for ClientOffsetService + ExtProxy OffsetResolve. Keep in sync with ExtProxy/OffsetResolve.c. Extensions stock RVAs updated 2026-08 (unique IN/Create patterns).",
+  "sites": [
+    { "name": "NetClientSend", "module": "Ascension", "stockRva": "0x232B50", "pattern": "558bec568bf183be34050000", "mask": "ffffffffffffffffffffffff" },
+    { "name": "PacketQueue", "module": "Ascension", "stockRva": "0x6F40", "pattern": "558beca10000000085c07534", "mask": "ffffffff00000000ffffffff" },
+    { "name": "FrameScriptExecute", "module": "Ascension", "stockRva": "0x419210", "pattern": "558bec5183050000000001a1", "mask": "ffffffffffff00000000ffff" },
+    { "name": "RegisterFunction", "module": "Ascension", "stockRva": "0x417F90", "pattern": "558bec8b450c568b3500000000", "mask": "ffffffffffffffffff00000000" },
+    { "name": "LuaToNumber", "module": "Ascension", "stockRva": "0x44E030", "pattern": "558bec8b450c8b4d0883ec10e800000000", "mask": "ffffffffffffffffffffffffff00000000" },
+    { "name": "LuaPushNumber", "module": "Ascension", "stockRva": "0x44E2A0", "pattern": "558bec8b4d08dd450c8b410c", "mask": "ffffffffffffffffffffffff" },
+    { "name": "LuaPushString", "module": "Ascension", "stockRva": "0x44E350", "pattern": "558bec8b550c85d2751c8b45", "mask": "ffffffffffffffffffffffff" },
+    { "name": "LuaToLString", "module": "Ascension", "stockRva": "0x44E0E0", "pattern": "558bec568b7508578b7d0c8bc78bcee8", "mask": "ffffffffffffffffffffffffffffffff" },
+    { "name": "GameUiSetTarget", "module": "Ascension", "stockRva": "0x124BF0", "pattern": "558bec81ecac020000538b5d08568b75", "mask": "ffffffffffffffffffffffffffffffff" },
+    { "name": "ExtProcessIncoming", "module": "Extensions", "stockRva": "0x2C66C0", "pattern": "558bec6aff680000000064a1000000005081ec84000000a10000000033c58945f0535657508d45f464a3000000008955", "mask": "ffffffffffff00000000ffffffffffffffffffffffffffff00000000ffffffffffffffffffffffffffffffffffffffff" },
+    { "name": "ExtOpcodeToName", "module": "Extensions", "stockRva": "0x2C76A0", "pattern": "8b4424043dd40900000f8749", "mask": "ffffffffffffffffffffffff" },
+    { "name": "ExtSend", "module": "Extensions", "stockRva": "0x312990", "pattern": "a100000000566a01ff74240cffd083c4", "mask": "ff00000000ffffffffffffffffffffff" },
+    { "name": "ExtCreatePacket", "module": "Extensions", "stockRva": "0x312220", "pattern": "558bec6aff680000000064a1000000005083ec08535657a10000000033c5508d45f464a3000000008b7d08b8b0fa8400", "mask": "ffffffffffff00000000ffffffffffffffffffffffffffff00000000ffffffffffffffffffffffffffffffffffffffff" }
+  ]
+}

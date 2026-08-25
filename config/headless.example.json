@@ -1,0 +1,28 @@
+{
+  "AuthHost": "127.0.0.1",
+  "AuthPort": 3724,
+  "ClientBuild": 12344,
+  "Account": "",
+  "Password": "",
+  "PreferredRealm": "",
+  "PreferredCharacter": "",
+  "Accounts": [
+    {
+      "Account": "",
+      "Password": "",
+      "Realm": "",
+      "Character": "",
+      "LogTag": "main"
+    }
+  ],
+  "Fleet": {
+    "AutoReconnect": true,
+    "ReconnectDelaySeconds": 5,
+    "KeepAliveSeconds": 15,
+    "AutoJoinChannels": [],
+    "ChannelJoinDelaySeconds": 8
+  },
+  "AddonsRoot": "",
+  "EnabledAddons": [],
+  "AuthMode": "Tcp"
+}
